@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 400px;
+    border: 1px solid;
+    background: url(bg-wc-oct-22.jpg);
+}
+header nav img{
+    height: 220px;
+    width: 130px;
+}
+ header nav{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+ background: linear-gradient(269.97deg, #290303 0.02%, rgba(0, 0, 0, 0) 40%);
+ }
+ .button{
+   background: linear-gradient(90deg, #880A0A 1.41%, rgba(92, 1, 1, 0.68) 100%);
+   position: absolute;
+top: 12px;
+right: 105px;
+    width: 211px;
+    height: 40px;
+   border-radius: 5px;
+   color:#fff;
+   border-color: #880A0A;
+ }
+ nav div select option{
+   position: absolute;
+    background-color:#880A0A;
+    font-size: 25px;
+    height: 40px;
+ }
+ nav div img{
+   position: absolute;
+    height: 40px;
+    margin-left: -85px;
+    width: 40px;
+    top: 11px;
+;
+ }
+ .menu{
+    position: absolute;
+    top: 65px;
+    right: 30px;
+    border: 1px solid;
+    width: 322px;
+    height: 250px;
+    border-radius: 4px;
+    padding: 9px;
+    background:#470505;
+    font-size: 17px;
+ }
+ .menu li{
+    height: 60px;
+    width: 100%;
+    list-style: none;
+ }
+ .menu li a{
+    text-decoration: none;
+    color: #fff;
+    right: 160px;
+    position: absolute;
+ }
+ .menu li img{
+   position: absolute;
+   height: 18px;
+   width: 20px;
+ }
+ #myDIV{
+    display: none;
+ }
+ .five img{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 110px;
+ }
+ .shiv img{
+   display: none;
+ }
+ .blackdiv{
+   display: none;
+ }
+.official img{
+    position: absolute;
+    height: 130px;
+    width: 450px;
+   left: 600px;
+   top: 95px;
+}
+.official h2{
+    font-size: 20px;
+  color:white;
+  position: absolute;
+  left: 660px;
+  top: 245px;
+  font-style:Sans-serif;
+}
+.official input{
+    position: absolute;
+    left: 620px;
+    top: 290px;
+    height: 35px;
+    width:200px;
+    border-radius: 5px;
+    border: 0px;
+
+}
+.official a{
+    position: absolute;
+    left: 840px;
+    top: 289px;
+    width: 140px; 
+    background-color:#00b137;
+    height: 35px;
+    color: #fff;
+    font-size: 20px;
+    font-style: Roboto bold;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+.onediv{
+   position: absolute;
+   width: 50%;
+   height: 70px;
+   background: #3e4444;
+}
+.onediv h2{
+   position: absolute;
+   right: 10px;
+   color:#fff;
+   margin: 12px;
+}
+.twodiv{
+   position: absolute;
+   width: 50%;
+   right: 0;
+   height: 70px;
+   background: #292F33;
+}
+.twodiv h2{
+   position: absolute;
+   right: 400px;
+   color: #fff;
+   margin: 12px;
+}
+ header nav span img{
+    border: 1px;
+   height: 40px;
+   width: 50px;
+   display: none;
+   margin: 5px;
+
+}
+@media (max-width:450px) {
+   header nav >img{
+      display: none;
+   }
+   header nav span img{
+     display: block;
+   }
+   .button{
+      width: 100px;
+      right: 55px;
+   }
+   nav div img{
+      right: 10px;
+   }
+   .five img{
+      width: 300px;
+      height: 300px;
+      margin-left: -82px;
+      margin-top: 115px;
+   }
+   .shiv img{
+      height: 70px;
+      width: 117px;
+      border: 1px;
+      display: block;
+      position: absolute;
+      top: 72px;
+      left: 133px;
+   }
+   .blackdiv{
+      height: 100px;
+      position: absolute;
+      width: 100%;
+      display: block;
+      background-color: black;
+      margin-top: 397px;
+   }
+   .onediv{
+      width: 50%;
+      height: 50px;
+      bottom: 5px;
+   }
+   .onediv h2{
+      font-size: 15px;
+      top: -5px;
+   }
+   .twodiv {
+      width: 50%;
+      height: 50px;
+      bottom: 5px;
+   }
+   .twodiv h2{
+      font-size: 15px;
+      top: -5px;
+      right: 40px;
+   }
+   .blackdiv img{
+      width: 70%;
+      float: left;
+      height: 46px;
+      margin-left: 60px;
+   }
+
+}
